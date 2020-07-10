@@ -17,6 +17,7 @@
         <div class="col">
             <b>{{$pertanyaan-> judul}}</b>
             <p>Jawaban</p>
+            <a href="/"><button class="btn btn-success float-right" type="button">{{$pertanyaan-> tag}}</button></a>
         </div>
     </div>
     @endforeach

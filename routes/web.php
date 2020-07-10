@@ -20,15 +20,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-<<<<<<< Updated upstream
-Route::get('/forum', function(){
-    return view('master');
-});
+
+// Route::get('/forum', function(){
+//     return view('pertanyaan');
+// });
+
+Route::post('/test', 'PertanyaanController@index');
 Route::get('/create', 'PertanyaanController@form');
 Route::post('/pertanyaan', 'PertanyaanController@store');
-=======
-
-Route::get('/test', function () {
-    return view('pertanyaan');
-});
->>>>>>> Stashed changes
