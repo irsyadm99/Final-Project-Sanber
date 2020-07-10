@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-2 border-right text-right px-4 py-3">
                <a href="/">Home</a><br>
-               <a href="/">Pertanyaan</a>
+               <a href="/create">Pertanyaan</a>
             </div>
             <div class="col px-4 py-3">
                 @yield('content')
