@@ -32,7 +32,7 @@
             <form class="form-inline">
                 <button class="btn btn-outline-success mx-2" type="button">Log In</button>
                 <button class="btn btn-outline-success mx-2" type="button">Sign Up</button>
-              </form>
+            </form>
         </nav>
     </div>
     <div class="container-fluid mt-5 pt-2">
