@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/forum', function(){
+    return view('master');
+});
+Route::get('/create', 'PertanyaanController@form');
+Route::post('/pertanyaan', 'PertanyaanController@store');
