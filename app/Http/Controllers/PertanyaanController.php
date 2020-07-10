@@ -10,6 +10,12 @@ class PertanyaanController extends Controller
     public function form(){
         return view('pertanyaan.form');
     }
+
+    public function index(){
+        $pertanyaan = PertanyaanModel::all();
+        return view('pertanyaan', compact('pertanyaan'));
+    }
+
     public function store(Request $request){
         //dd($request->judul);
         $items = new PertanyaanModel;

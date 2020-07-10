@@ -21,9 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/forum', function(){
-//     return view('pertanyaan');
-// });
+Route::get('/forum', 'PertanyaanController@index');
 
 Route::post('/test', 'PertanyaanController@index');
 Route::get('/create', 'PertanyaanController@form');
